@@ -1,0 +1,21 @@
+{
+  "name": "skooldioHomework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petchill/skooldioHomework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petchill/skooldioHomework/issues"
+  },
+  "homepage": "https://github.com/petchill/skooldioHomework#readme"
+}
