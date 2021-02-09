@@ -61,8 +61,10 @@ const idenCard = (card) => {
 };
 
 function winnerIs(userCards, comCards) {
-  const userPoint = userCards[0].cardPoint + userCards[1].cardPoint
-  const comPoint = comCards[0].cardPoint + comCards[1].cardPoint
+  let userPoint = userCards[0].cardPoint + userCards[1].cardPoint
+  userPoint = userPoint%10
+  let comPoint = comCards[0].cardPoint + comCards[1].cardPoint
+  comPoint = comPoint%10
   if (userPoint > comPoint) {
     const multi = userCards[0].cardFench == userCards[1].cardFench || userCards[0].cardName == userCards[1].cardName ? 2 : 1
     return {
